@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+
 import Button from './Button'
 
 
@@ -15,6 +16,7 @@ const Header = ({ title }) => {
 
             </header>
 
+
     )
 }
 
@@ -28,9 +30,11 @@ Header.propTypes = {
 
 export default Header
 
+
 //CSS in JS
 //const headingStyle = {
 //    color: 'red',
 //    backgroundColor: 'black'
 //}
+
 
