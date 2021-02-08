@@ -1,18 +1,16 @@
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 
-function App() {
-  const name = 'Brad'
-  const x = true
-
+const App = () => {
   return (
-    <div className="App">
-        <Header title='Hello'/>
-
+    <div className="container">
+        <Header />
+        <Tasks />
     </div>
   )
 }
 
-export default App;
+export default App
 
 
 
