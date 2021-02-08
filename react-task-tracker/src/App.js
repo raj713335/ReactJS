@@ -1,18 +1,22 @@
 import Header from './components/Header'
 
-function App() {
-  const name = 'Brad'
-  const x = true
+import Tasks from './components/Tasks'
 
+
+const App = () => {
   return (
-    <div className="App">
-        <Header title='Hello'/>
-
+    <div className="container">
+        <Header />
+        <Tasks />
     </div>
   )
 }
 
+
+export default App
+
 export default App;
+
 
 
 
